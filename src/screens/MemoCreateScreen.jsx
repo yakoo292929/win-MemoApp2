@@ -15,7 +15,7 @@ export default function MemoCreateScreen(props) {
     const ref = db.collection(`users/${currentUser.uid}/memos`);
     ref.add({
       bodyText,
-      updateAt: new Date(),
+      updatedAt: new Date(),
     })
       .then((docRef) => {
         console.log('Created!', docRef.id);
@@ -27,7 +27,7 @@ export default function MemoCreateScreen(props) {
   }
 
   return (
-    <KeyboardAvoidingView style={styles.container} behavior="height">
+    <KeyboardAvoidingView style={styles.container} >
       <View style={styles.inputContainer}>
         <TextInput
          value={bodyText}

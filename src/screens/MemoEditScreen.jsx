@@ -6,7 +6,7 @@ import CircleButton from "../components/CircleButton";
 export default function MemoEditScreen(props) {
   const { navigation } = props;
   return (
-    <KeyboardAvoidingView style={styles.container} behavior="height">
+    <KeyboardAvoidingView style={styles.container} >
       <View style={styles.inputContainer}>
         <TextInput value="買い物リスト" multiline style={styles.input} />
       </View>
