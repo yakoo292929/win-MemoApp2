@@ -40,7 +40,7 @@ export default function MemoListScreen(props) {
         setLoading(false);
       }, () => {
         setLoading(false);
-        Alert.alert('データの読み出しに失敗しました。');
+        // Alert.alert('データの読み出しに失敗しました。');
       });
     }
     return unsubscribe;
