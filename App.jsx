@@ -30,7 +30,7 @@ export default function App() {
       <Stack.Navigator
         initialRouteName="LogIn"
         screenOptions={{
-          headerStyle: { backgroundColor: '#467FD3'},
+          headerStyle: { backgroundColor: '#005A49'},
           headerTitleStyle: { color: '#ffffff'},
           headerTitle: 'Memo App',
           headerTintColor: '#ffffff',
